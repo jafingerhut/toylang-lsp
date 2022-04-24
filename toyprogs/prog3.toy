@@ -1,0 +1,17 @@
+
+fn foo1
+{
+    var a1;
+    a3 a4;
+    var a2;
+    fn sub_foo {
+        var a3;
+    }
+}
+
+fn bar {
+}
+
+var baz;
+
+baz bar;

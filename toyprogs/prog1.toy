@@ -1,0 +1,3 @@
+var   foo1
+ ;var bar2;
+         var baz_3        ;
