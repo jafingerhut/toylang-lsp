@@ -32,8 +32,9 @@ functionality in two editors/IDEs of interest to me:
 
 + In [GNU Emacs](https://www.gnu.org/software/emacs/):
   + Create a [treemacs](https://github.com/emacs-lsp/lsp-treemacs)
-    symbols view using `M-x lsp-treemacs-symbols`, similar to VSCode's
-    Outline View.
+    symbols view using `M-x lsp-treemacs-symbols` (see [here in the
+    docs](https://github.com/emacs-lsp/lsp-treemacs#lsp-treemacs-symbols)),
+    similar to VSCode's Outline View.
   + Implement jump to definition of the name the cursor is on/near.
   + If there is a convenient way to implement something like VSCode's
     Peek definition feature, do that.  Alternately if there is a way
@@ -53,6 +54,16 @@ syntax to be able to represent these kinds of things:
 
 This is just enough to be able to implement the features above for
 `toylang`, and test this implementation on simple `toylang` source
+files.
+
+TODO: Consider adding comments, e.g. from "//" to the end of a line,
+to see how to start moving a little bit more in the direction of a
+real language syntax.
+
+TODO: Also consider adding the option to use the C preprocessor for
+toylang, and having the LSP server run the C preprocessor, and parse
+the output of the C preprocessor, keeping track of file names and line
+numbers within each file on disk across uses of #include between
 files.
 
 
