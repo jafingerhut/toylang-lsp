@@ -67,6 +67,15 @@ numbers within each file on disk across uses of #include between
 files.
 
 
+# Possibly useful sources for more info
+
++ Emacs `lsp-mode`
+  [documentation](https://github.com/emacs-lsp/lsp-mode/blob/master/docs/page/adding-new-language.md)
+  on adding support for a new programming language
++ [`lsp4j`](https://github.com/eclipse/lsp4j) - A Java library
+  intended to help implement the Language Server Protocol (LSP)
+
+
 # License
 
 Copyright © 2022 Andy Fingerhut
